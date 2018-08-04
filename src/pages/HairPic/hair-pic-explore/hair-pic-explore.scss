@@ -1,0 +1,44 @@
+page-hair-pic-explore {
+  .toolbar-background {
+    background-color: #f23a4e !important;
+  }
+  ion-content {
+    background-color: white !important;
+    padding: 0 !important;
+  }
+  .scroll-content {
+    padding: 0 !important;
+  }
+  .back-button {
+    color: white !important;
+  }
+
+  .toolbar-title {
+    color: white !important;
+  }
+  .item-inner {
+    height: 140px;
+    overflow: hidden;
+  }
+
+  .x-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .item-inner {
+    border-bottom: none !important;
+  }
+
+  .searchbar {
+    background: none;
+    border: solid 0.55px rgba(0, 0, 0, 0.7) !important;
+    margin-top: 5px;
+    border-radius: 15px;
+  }
+
+  .searchbar-container {
+    width: 100%;
+  }
+}

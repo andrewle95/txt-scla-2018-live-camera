@@ -1,0 +1,60 @@
+<!--
+  Generated template for the InsolePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title id="headd">Pronation Info</ion-title>
+    <button ion-button round (click)="showAlert20()" id="navbutton">?</button>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <div class="image-container">
+    <img id="overimage" src="assets/ermes/insole.png">
+    <button ion-button (click)="ifButton('A')" id="A">
+      <strong></strong>
+    </button>
+
+    <button ion-button (click)="ifButton('B')" id="B">
+      <strong></strong>
+    </button>
+
+    <button ion-button (click)="ifButton('C')" id="C">
+      <strong></strong>
+    </button>
+
+    <button ion-button (click)="ifButton('D')" id="D">
+      <strong></strong>
+    </button>
+
+    <button ion-button (click)="ifButton('E')" id="E">
+      <strong></strong>
+    </button>
+  </div>
+
+
+  <img id="photosize" [src]="foot" alt="">
+
+
+
+
+
+  <div id="centeredbuttons">
+    <button *ngIf="pageone" class="pro" (click)="nextPage()">OverPronation </button>
+
+    <button *ngIf="pagetwo" class="pro" (click)="nextPageP()">UnderPronation </button>
+
+    <button *ngIf="pagethree" class="pro" [navPush]="Home"> Normal Pronation</button>
+  </div>
+
+
+
+</ion-content>

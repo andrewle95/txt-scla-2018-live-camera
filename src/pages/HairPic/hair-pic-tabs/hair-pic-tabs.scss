@@ -1,0 +1,23 @@
+page-hair-pic-tabs {
+  .tabbar {
+    background-color: #f23a4e !important;
+    color: white !important;
+  }
+
+  .tabs-ios .tab-button-icon {
+    color: white !important;
+  }
+
+  html,
+  body,
+  ion-app,
+  ion-content,
+  ion-page,
+  .nav-decor {
+    background-color: transparent !important;
+  }
+
+  .header {
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
+  }
+}

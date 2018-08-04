@@ -1,0 +1,185 @@
+page-ermes-insole {
+  ion-content,
+  .scroll-content {
+    padding: 0 !important;
+  }
+  background-color: white;
+
+  #headd {
+    background-color: white;
+  }
+
+  #A {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 90px;
+    width: 10px;
+    background-color: deepskyblue;
+    display: block;
+    border-radius: 100px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    z-index: 99;
+  }
+
+  #B {
+    position: absolute;
+    height: 70px;
+    width: 10px;
+    bottom: 20px;
+    right: 50px;
+    background-color: deepskyblue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    z-index: 99;
+  }
+
+  #C {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 85px;
+    width: 45px;
+    background-color: deepskyblue;
+    display: block;
+    border-radius: 100px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    z-index: 99;
+  }
+
+  #D {
+    position: absolute;
+    left: 35px;
+    top: 90px;
+    height: 60px;
+    width: 75px;
+    background-color: deepskyblue;
+
+    display: block;
+    border-radius: 100px;
+
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    z-index: 99;
+  }
+
+  #E {
+    position: absolute;
+    height: 80px;
+    width: 65px;
+    right: 10px;
+    top: 25px;
+    background-color: deepskyblue;
+    display: block;
+    border-radius: 100px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    z-index: 99;
+  }
+
+  .pro {
+    display: block;
+    border-radius: 100px;
+    background-color: #446f8b;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin: auto;
+    margin-top: 16px;
+  }
+  .pro1 {
+    margin-right: 10px;
+    margin-left: 89px;
+    border-radius: 100px;
+    background-color: #446f8b;
+    font-size: 15px;
+    height: 40px;
+    transform: translateY(-406px);
+    color: white;
+  }
+  .pro2 {
+    margin-right: 10px;
+    margin-left: 90px;
+    border-radius: 100px;
+    background-color: #446f8b;
+    font-size: 15px;
+    height: 40px;
+    transform: translateY(-406px);
+    color: white;
+  }
+
+  #outline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  #question {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    line-height: 102px;
+    background-color: #446f8b;
+    font-size: 10px;
+    float: right;
+    transform: translate(0px, -450px);
+  }
+
+  #navbutton {
+    float: right;
+    background-color: #446f8b;
+    width: 20px;
+    height: 30px;
+    top: 20%;
+    position: relative;
+  }
+
+  #overimage {
+    display: block;
+    width: 160px;
+    position: absolute;
+
+    height: 370px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .image-container {
+    position: relative;
+    width: 160px;
+    height: 370px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  #photosize {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+  }
+
+  #centeredbuttons {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  }
+}

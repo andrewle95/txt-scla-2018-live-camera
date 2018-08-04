@@ -1,0 +1,53 @@
+page-ermes-under-pro {
+  background-color: white;
+
+  .back-button {
+    color: white !important;
+  }
+
+  .back-button-title {
+    color: white !important;
+  }
+
+  #colorhead {
+    background-color: #446f8b;
+    color: white;
+  }
+
+  #buttonshoes {
+    display: block;
+    text-align: center;
+    background-color: #446f8b;
+    font-size: 25px;
+    color: white;
+    margin: 20px auto;
+    height: 45px;
+  }
+
+  #info {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+  }
+
+  #white {
+    color: white;
+  }
+
+  #headeralign {
+    transform: translateX(20px);
+  }
+
+  #color {
+    color: white;
+  }
+
+  #img10 {
+    width: 200px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

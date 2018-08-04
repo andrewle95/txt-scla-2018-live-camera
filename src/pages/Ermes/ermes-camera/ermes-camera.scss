@@ -1,0 +1,174 @@
+page-ermes-camera {
+  background-color: white;
+
+  #invisible {
+    text-align: center;
+    background-color: white;
+    color: white;
+    font-size: 9px;
+  }
+
+  #bu {
+    text-align: center;
+    background-color: #446f8b;
+    height: 210px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 70px;
+  }
+
+  #probu {
+    background-color: #446f8b;
+    height: 170px;
+    width: 42%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    top: 50%;
+  }
+
+  #tempdiv {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+
+  #buttona {
+    text-align: center;
+  }
+
+  #divpronation {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    right: 0;
+  }
+
+  #trophybutton {
+    background-color: #446f8b;
+    height: 170px;
+    width: 43%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    float: right;
+    top: 50%;
+  }
+
+  #contestext {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    right: 0;
+  }
+
+  #shoerunimg {
+    background-color: #446f8b;
+    height: 170px;
+    width: 43%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    float: right;
+    top: 50%;
+  }
+
+  #shoerunbutton {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+
+    right: 0;
+  }
+
+  #al {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    background-color: #446f8b;
+    font-size: 11px;
+    margin: 15px;
+    border-radius: 12px;
+  }
+
+  #insolebuttonn {
+    background-color: #446f8b;
+    height: 170px;
+    width: 42%;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+
+  #insoletextt {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    right: 0;
+  }
+
+  #alt {
+    float: right;
+    width: 40%;
+    padding: 40px;
+    background-color: #446f8b;
+    font-size: 11px;
+    margin: 15px;
+    border-radius: 12px;
+  }
+
+  #alerts {
+    float: left;
+    width: 40%;
+    padding: 40px;
+    background-color: #446f8b;
+    font-size: 11px;
+    margin: 15px;
+    border-radius: 12px;
+  }
+
+  #alerts1 {
+    float: right;
+    width: 40%;
+    padding: 40px;
+    background-color: #446f8b;
+    font-size: 11px;
+    margin: 15px;
+    border-radius: 12px;
+  }
+
+  #img {
+    max-width: 65%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .relative {
+    position: relative;
+  }
+}

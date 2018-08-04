@@ -1,0 +1,58 @@
+page-hair-pic-bio {
+  .toolbar-background {
+    background-color: #f23a4e !important;
+  }
+  ion-content {
+    background-color: white !important;
+    padding: 0 !important;
+  }
+  .scroll-content {
+    padding: 0 !important;
+  }
+
+  .profile-container {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ellipse {
+    background-color: #e34950 !important;
+    color: white;
+    font-size: 24px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .bio-sort-menu {
+    border-top: solid thin black;
+    border-bottom: solid thin black;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .back-button {
+    color: white !important;
+  }
+
+  .toolbar-title {
+    color: white !important;
+  }
+
+  .img-button {
+    border: 0;
+  }
+}

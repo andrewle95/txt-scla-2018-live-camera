@@ -1,0 +1,75 @@
+page-ermes-home {
+  background-color: white;
+
+  .back-button {
+    color: white !important;
+  }
+
+  .back-button-title {
+    color: white !important;
+  }
+  #firstpage {
+    text-align: center;
+  }
+
+  #invisible {
+    background-color: white;
+    font-size: 10px;
+  }
+
+  #img10 {
+    height: 300px;
+    width: 300px;
+  }
+
+  #text {
+    font-size: 20px;
+  }
+
+  #titlecolor {
+    color: white;
+  }
+
+  #head2 {
+    background-color: #ceff00;
+  }
+
+  #button {
+    display: block;
+    text-align: center;
+    background-color: #446f8b;
+    font-size: 25px;
+    color: white;
+    margin: 20px auto;
+    height: 45px;
+    border-radius: 12px;
+  }
+
+  #bodycolor7 {
+    background-color: white;
+  }
+
+  #proInfo {
+    margin: 30px auto;
+    text-align: justify;
+  }
+
+  #header {
+    transform: translateX(20px);
+  }
+
+  #img10 {
+    width: 200px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #infopro {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    text-align: justify;
+  }
+}

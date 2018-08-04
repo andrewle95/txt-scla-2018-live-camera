@@ -1,0 +1,55 @@
+<!--
+  Generated template for the AfroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{currentItem.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <!-- <div class="title">
+    <h1> {{currentItem.barber}} </h1>    
+    <h3>{{currentItem.cell}}</h3>
+  </div> -->
+  <div class="creed-container">
+    <img id="creed-pic" [src]="currentItem.picture">
+  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="right" col-2>
+        <div class="icon-container">
+          <img src="assets/hair-pic/tryout/heart.png" alt="">
+        </div>
+        <span class="counter">{{currentItem.likes}}</span>
+      </ion-col>
+      <ion-col class="right" col-2>
+        <div class="icon-container">
+          <img src="assets/hair-pic/tryout/msg.png" alt="">
+        </div>
+        <span class="counter">{{currentItem.msg}}</span>
+      </ion-col>
+      <ion-col col-2>
+        <div class="icon-container" id="tryout">
+          <img src="assets/hair-pic/tryout/tryout.png" alt="">
+        </div>
+      </ion-col>
+      <ion-col col-6>
+        <p class="barber"> {{currentItem.barber}} </p>
+        <p class="barber">{{currentItem.cell}}</p>
+
+      </ion-col>
+    </ion-row>
+    <p>
+      <button class="try-out-btn" ion-button full (click)="try(currentItem.id)">Try It out</button>
+    </p>
+  </ion-grid>
+
+
+</ion-content>

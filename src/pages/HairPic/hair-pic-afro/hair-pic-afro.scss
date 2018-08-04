@@ -1,0 +1,105 @@
+page-hair-pic-afro {
+  ion-title {
+    text-transform: capitalize;
+  }
+  .toolbar-background {
+    background-color: #f23a4e !important;
+  }
+  ion-content {
+    background-color: white !important;
+    padding: 0 !important;
+  }
+  .scroll-content {
+    padding: 0 !important;
+  }
+  .back-button {
+    color: white !important;
+  }
+
+  .toolbar-title {
+    color: white !important;
+  }
+  .creed-container {
+    width: 340px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 35px;
+    border: solid 4px #f23a4e;
+  }
+
+  .creed-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .col {
+    text-align: center;
+    color: #f23a4e;
+    font-size: 21px;
+  }
+  .col p {
+    margin: 0;
+    margin-bottom: 2px;
+  }
+  .title * {
+    color: #e34950;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 42px;
+  }
+  #right {
+    text-align: right;
+    padding-right: 50px;
+  }
+
+  .try-out-btn {
+    background-color: #f23a4e !important;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    font-size: 19px;
+  }
+
+  .icon-container {
+    width: 22px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #tryout {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .icon-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .grid {
+    padding: 5px 10px;
+  }
+
+  .right {
+    text-align: right !important;
+  }
+  .counter {
+    font-size: 18px;
+  }
+
+  .barber {
+    font-size: 18px;
+  }
+}
